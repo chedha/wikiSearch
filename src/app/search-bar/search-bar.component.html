@@ -1,3 +1,9 @@
-<form (submit)="onSubmit($event)">
-    <input type="text" placeholder="Search" (input)="onSearch($event)">
-</form>
+<div class="box">
+    <form (submit)="onSubmit($event)">
+        <input 
+        class="input"
+        type="text" 
+        placeholder="Enter Search Term" 
+        (input)="onSearch($event)">
+    </form>
+</div>
