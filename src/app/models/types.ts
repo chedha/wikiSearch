@@ -5,6 +5,7 @@ export interface Response {
           title: string,
           snippet: string,
           wordcount: number,
+          pageid: number
         }
       ]
     }

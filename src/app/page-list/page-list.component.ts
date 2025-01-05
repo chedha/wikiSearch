@@ -9,6 +9,6 @@ import { NgFor } from '@angular/common';
   styleUrl: './page-list.component.css'
 })
 export class PageListComponent {
-  @Input() pages: { title: string; snippet: string; wordcount: number; }[] = [];
+  @Input() pages: { title: string; snippet: string; wordcount: number; pageid: number; }[] = [];
 
 }
